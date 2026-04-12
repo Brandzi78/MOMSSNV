@@ -335,13 +335,18 @@ a:visited {
     }
 
     .social-media-section {
+        display: flex;
         justify-content: center;
         text-align: center;
+        align-items: center;
         gap: 0;
 
     }
 
     .social-media-section > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-basis: calc(100% / 2);
     }
 
