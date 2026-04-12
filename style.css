@@ -310,6 +310,36 @@ a:visited {
     .social-media-section > a {
         flex-basis: calc(100% / 2);
     }
+
+    .main-grid {
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .main-img {
+        order: 1;
+        border-right: none;
+    }
+
+    .main-title {
+        order: 2;
+        border-right: none;
+        gap: 5px;
+        font-size: 16px;
+    }
+
+    .main-text {
+        border-top: var(--border-color);
+        order: 3;
+        border-right: none;
+    }
+
+    .arrows {
+        order: 4;
+        height: 100px;
+        border-right: none;
+    }
 }
 
 /*========PHONE LAYOUT========*/
