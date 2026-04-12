@@ -1,5 +1,5 @@
 :root {
-    --background-color: #05062c;
+    --background-color: #030422;
     --border-color: 1px solid rgba(167, 167, 167, 0.1);
 }
 
@@ -109,12 +109,46 @@ a:visited {
 .social-media-icon {
     height: 20px;
     width: 20px;
+    transition: transform 0.3s ease;
+}
+
+.facebook {
     filter: brightness(0) invert(1);
+}
+
+.matica-logo {
+    display: block;
+    height: 30px;
+    width: 30px;
+    fill: white;
+    margin: 0;
+    fill: white;
     transition: transform 0.3s ease;
 }
 
 .social-media-icon:hover {
     transform: scale(1.3);
+}
+
+.logo-ellipse {
+    fill: white !important;
+    transition: fill 0.3s ease;
+}
+
+.matica-logo:hover .logo-ellipse {
+    fill: red !important;
+}
+
+.logo-cross {
+    fill: white;
+    stroke: black;
+    stroke-width: 5px;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.matica-logo:hover .logo-cross {
+    fill: white !important;
+    stroke: white;
 }
 
 /*======Nav Images======*/
