@@ -308,6 +308,19 @@ a:visited {
 
 /*======MAIN GRID======*/
 
+.slider-wrapper {
+    display: flex;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.article-two {
+    position: absolute;
+    transform: translateX(100%);
+}
+
 
 /*========PHONE LAYOUT========*/
 
