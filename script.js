@@ -23,3 +23,10 @@ leftArrows.forEach(button => {
         }
     });
 });
+
+window.addEventListener ('load', () => {
+    const plusSign = document.querySelector('.fa-plus');
+    setTimeout(() => {
+        plusSign.classList.add('loaded');
+    }, 100);
+})
