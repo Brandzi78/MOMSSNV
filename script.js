@@ -29,4 +29,12 @@ window.addEventListener ('load', () => {
     setTimeout(() => {
         plusSign.classList.add('loaded');
     }, 100);
+});
+
+let menuButton = document.querySelector('.menu-button');
+const toggledMenu = document.querySelector('.mobile-nav-section');
+
+menuButton.addEventListener ('click', () => {
+    toggledMenu.classList.toggle('toggled-on');
 })
+
