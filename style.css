@@ -323,10 +323,14 @@ a:visited {
 
 @media (max-width: 750px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         height: auto;
         overflow-y: auto;
-        overflow-x: hidden;
     }
 
     .navbar {
@@ -377,7 +381,7 @@ a:visited {
     }
 
     .mobile-nav-section.toggled-on {
-        height: 100vh;
+        height: calc(100dvh - 130px);
     }
 
     .nav-section {
@@ -419,8 +423,9 @@ a:visited {
         display: flex;
         flex-direction: column;
         flex: 1;
-        min-height: 100vh;
+        height: calc(100dvh - 130px);
         font-weight: 500;
+        overflow: hidden;
     }
 
     p, h1 {
@@ -469,7 +474,7 @@ a:visited {
         border-top: var(--border-color);
         order: 3;
         border-right: none;
-        flex-grow: 1;
+        flex: 1;
         align-items: center;
         font-size: 15px;
     }
