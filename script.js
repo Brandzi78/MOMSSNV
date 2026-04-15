@@ -36,5 +36,13 @@ const toggledMenu = document.querySelector('.mobile-nav-section');
 
 menuButton.addEventListener ('click', () => {
     toggledMenu.classList.toggle('toggled-on');
+    const menuIcon = document.querySelector('i');
+    setTimeout(() => {
+    if (toggledMenu.classList.contains('toggled-on')) {
+        menuIcon.classList.replace('fa-bars', 'fa-xmark');
+    } else {
+        menuIcon.classList.replace('fa-xmark', 'fa-bars');
+    }
+    }, 100);
 })
 
