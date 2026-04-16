@@ -312,7 +312,7 @@ a:visited {
 .slider-wrapper {
     display: flex;
     flex: 1;
-    width: 200%;
+    width: 300%;
     transition: transform 0.5s ease;
     height: 100vh;
     overflow: hidden;
@@ -410,7 +410,6 @@ a:visited {
         text-align: center;
         align-items: center;
         gap: 0;
-
     }
 
     .social-media-section > a {
