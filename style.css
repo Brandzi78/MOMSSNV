@@ -457,13 +457,13 @@ a:visited {
     .main-title {
         order: 2;
         border-right: none;
-        gap: 0px;
+        gap: 50px;
         flex-basis: calc(100% / 3);
     }
 
     .main-title > .fa-plus {
-        font-weight: 400;
-        font-size: 50px;
+        font-weight: 200;
+        font-size: 30px;
         width: 50px;
         flex-basis: calc(100% * 0.1);
         justify-content: end;
