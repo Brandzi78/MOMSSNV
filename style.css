@@ -510,5 +510,9 @@ a:visited {
     }
 }
 
+.slider-wrapper {
+    overflow: hidden;
+}
+
 /*========PHONE LAYOUT========*/
 
